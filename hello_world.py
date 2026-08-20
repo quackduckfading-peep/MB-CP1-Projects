@@ -10,4 +10,4 @@ print("It is nice to meet you," + name)
 
 print("I am your computer. You can call me Peter," + name)
 
-print("Would you like to be friends?")
+friends = input("Would you like to be friends?")
