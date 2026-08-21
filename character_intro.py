@@ -18,4 +18,6 @@ location = input("I'm from Colorado. Where are you from?")
 
 input("I don't think I've been there yet! I hear that" + location + " is a gorgeous place. Is that true?")
 
-print("That's awesome!!")
+input("That's awesome!! Would you like to be friends?")
+
+print("Thank you for chatting. Bye!")
