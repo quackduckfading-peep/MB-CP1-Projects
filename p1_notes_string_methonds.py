@@ -1,5 +1,7 @@
 sentence = ("The quick brown fox jumps over the lazy dog.")
 
+print(sentence.split()) #splits the sentence so that it becomes a list that goes such as ['word', 'other word']
+
 fixed = sentence.replace("fox" , 'wolf') # replaces a word of the sentence
 
 name = input("What is your name: ")
