@@ -24,3 +24,13 @@ print(full_name.isnumeric()) # Checks if the entire thing is numbers
 print(full_name.isupper()) # Checks is all the string is uppercase
 
 print(f"Hello {full_name} welcome to my program.") # lets us not throw in extra things like spaces or +'s
+
+# formatted string
+print(f"hello {fixed.title()} {last_fixed} welcome to my program.") """
+
+letter = input("Give me a letter: ")
+letter = letter[0].lower()
+number_value = ord(letter)
+number_value += 2
+new_letter +chr(number_value)
+print(f"your letter was {letter} now it is {new_letter}") # Does stuff
