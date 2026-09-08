@@ -1,10 +1,25 @@
 # Ren Brown, Idiot Proof
 
-name = "Alice"
-age = 25
-height = 1.65
-fav_color = "blue"
+while True:
+    try:
+        name = input("What is your name: ").strip().title()
+    except:
+        print("That is also not a letter or name.")
 
-print(f"User info: {name}{age}{height}{fav_color}")
-print(f"The person is {age} years old and {height}m tall")
-print(f"Favorite color")
+while True:
+    try:
+        phone_numbr = int(input("What is your phone number: "))
+    except:
+        print("That is not a phone number or a number. Try again.")
+    else:
+        break
+
+while True:
+    try:
+        gpa = float(input("What is your GPA "))
+    except:
+        print("That's not a valid number. Don't be an idiot.")
+    else:
+        break
+
+    gpa = str(gpa)
