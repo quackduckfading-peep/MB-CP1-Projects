@@ -18,3 +18,9 @@ print(sentence.capitalize()) # capitalizes the first letter of the sentence
 print(sentence.title()) # capitalizes the first letter of every word
 
 print(fixed)
+
+print(full_name.isalpha()) # Checks if the entire thing is characters
+print(full_name.isnumeric()) # Checks if the entire thing is numbers
+print(full_name.isupper()) # Checks is all the string is uppercase
+
+print(f"Hello {full_name} welcome to my program.") # lets us not throw in extra things like spaces or +'s
