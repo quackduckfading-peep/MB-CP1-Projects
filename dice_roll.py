@@ -27,3 +27,7 @@ if dice == 8:
     print(f"You rolled a {d8}.")
 if dice == 10:
     print(f"You rolled a {d10}.")
+if dice == 12:
+    print(f"You rolled a {d12}.")
+if dice == 20:
+    print(f"You rolled a {d20}.")
