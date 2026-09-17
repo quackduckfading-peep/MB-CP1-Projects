@@ -1,4 +1,4 @@
-
+# Ren Brown, Debug with the Debugger
 
 # Ravager Snack Bar
 import random
@@ -11,13 +11,13 @@ quantity = input("How many would you like? ")
 
 total = price * quantity
 
-discounted_total = total - price * 0.10
+discounted_total = int(total - 7 * 0.10)
 
 tax_rate = 0.08
 total_with_tax = discounted_total + (discounted_total * tax_rate)
 
 print("Hello, " + pirate_name + "! Here's your order summary:")
-print("Snack: " + snack_name)
+print("Snack: " + snack_name)  #the variable was spelled wrong
 print("Price per snack: " + str(price) + " credits")
 print("Total before tax: " + str(price))
 print("Total with tax: " + str(round(total_with_tax, 2)) + " credits")
