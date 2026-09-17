@@ -11,7 +11,7 @@ quantity = int(input("How many would you like? ")) #changed it to do my bidding 
 
 total = price * quantity
 
-discounted_total = int(total - 7.0 * 0.10)
+discounted_total = int(total - total * 0.10) #wrong subtraction
 
 tax_rate = 0.08
 total_with_tax = discounted_total + (discounted_total * tax_rate)
