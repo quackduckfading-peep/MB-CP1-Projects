@@ -15,3 +15,11 @@ givin = (p * 3)
 galactic = (units - givin)
 
 print(f"They gave the crew three coins each. They now have {galactic} units.")
+
+yondu = (galactic * 0.13)
+
+print(f"Yondu took {yondu} units.")
+
+peter = (yondu * 0.11)
+
+print(f"Peter takes {peter} units.")
