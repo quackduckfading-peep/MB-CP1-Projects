@@ -1,4 +1,4 @@
-# Ren Brown, 1, user Sign In
+# Ren Brown, 1, User Sign In
 
 username = input("What is your username: ")
 password = input("What is your password: ")
@@ -6,7 +6,6 @@ password = input("What is your password: ")
 if username == "LaRose":
     if password == "TeAtChEr":
         print("Congratulations, you are signed in!")
-        print("Moving onto the next step.")
     else:
         print("Username or Password are incorrect.")
         print("Is this even the right account for you?")
