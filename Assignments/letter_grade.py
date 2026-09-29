@@ -2,7 +2,11 @@
 
 grade = float(input("What is your percentage grade: "))
 
-if grade >= 93:
+if grade > 115:
+    print(f"Your grade is too high and does not count.")
+elif grade < 40:
+    print("Your grade is too low.")
+elif grade >= 93:
     print(f"Your percentage grade is {grade}")
     print("Your grade is an A. Good job!")
 elif grade >= 80:
