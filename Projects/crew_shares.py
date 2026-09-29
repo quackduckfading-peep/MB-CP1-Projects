@@ -2,7 +2,7 @@
 
 import random
 
-p = int(input(f"How many space pirates are there? "))
+p = int(input(f"How many space pirates are there, not including Yondu and Peter: "))
 
 pirates = (p + 2)
 
@@ -12,36 +12,30 @@ print(f"We found {units} units!")
 
 givin = (p * 3)
 
-galactic = int(round(units - givin))
+galactic = round(units - givin, 2)
 
 print(f"They gave the crew three coins each. They now have {galactic} units.")
 
-yondu = int(round(galactic * 0.13, 2))
+yondu = round(galactic * 0.13, 2)
 
-pete = int(round(galactic - yondu, 2))
+pete = round(galactic - yondu, 2)
 
 print(f"Yondu took {yondu} units.")
 
-peter = int(round(pete * 0.11, 2))
+peter = round(pete * 0.11, 2)
 
-crew = int(round(pete - peter))
+crew = round(pete - peter)
 
 print(f"Peter takes {peter} units.")
 
-share = int(round(crew / pirates, 2))
+share = round(crew / pirates, 2)
 
 print(f"The crew gets {share} units.")
 
-yonyon = int(round(yondu + share, 2))
-quill = int(round(peter + share, 2))
+yonyon = round(yondu + share, 2)
+quill = round(peter + share, 2)
 
 
-
-print(f"There are {pirates} pirates.")
-print(f"Units found: {units}")
-
-print(f"After handing out 3 coins to each space pirate, they have: {galactic}")
-
-print(f"Yondu's share: {yonyon} galactic units")
-print(f"Peter Quill's share: {quill} galactic units")
-print(f"Crew's share: {share}")
+print(f"Yondu's share: {yonyon:.2f} galactic units")
+print(f"Peter Quill's share: {quill:.2f} galactic units")
+print(f"Crew's share: {share:.2f}")
