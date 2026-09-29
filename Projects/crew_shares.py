@@ -2,7 +2,7 @@
 
 import random
 
-p = int(input(f"How many pirates are there? "))
+p = int(input(f"How many space pirates are there? "))
 
 pirates = (p + 2)
 
@@ -34,3 +34,12 @@ print(f"The crew gets {share} units.")
 
 yonyon = (yondu + share)
 quill = (peter + share)
+
+print(f"There are {pirates} pirates.")
+print(f"Units found: {units}")
+
+print(f"After handing out 3 coins to each space pirate, they have: {galactic}")
+
+print(f"Yondu's share: {yonyon} galactic units")
+print(f"Peter Quill's share: {quill} galactic units")
+print(f"Crew's share: {share}")
