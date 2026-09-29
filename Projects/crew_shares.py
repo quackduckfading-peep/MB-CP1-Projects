@@ -12,28 +12,30 @@ print(f"We found {units} units!")
 
 givin = (p * 3)
 
-galactic = round(units - givin)
+galactic = int(round(units - givin))
 
 print(f"They gave the crew three coins each. They now have {galactic} units.")
 
-yondu = round(galactic * 0.13)
+yondu = int(round(galactic * 0.13, 2))
 
-pete = round(galactic - yondu)
+pete = int(round(galactic - yondu, 2))
 
 print(f"Yondu took {yondu} units.")
 
-peter = round(pete * 0.11)
+peter = int(round(pete * 0.11, 2))
 
-crew = round(pete - peter)
+crew = int(round(pete - peter))
 
 print(f"Peter takes {peter} units.")
 
-share = (crew / pirates)
+share = int(round(crew / pirates, 2))
 
 print(f"The crew gets {share} units.")
 
-yonyon = (yondu + share)
-quill = (peter + share)
+yonyon = int(round(yondu + share, 2))
+quill = int(round(peter + share, 2))
+
+
 
 print(f"There are {pirates} pirates.")
 print(f"Units found: {units}")
