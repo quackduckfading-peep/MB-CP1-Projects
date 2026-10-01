@@ -2,7 +2,7 @@
 
 #Lists
 siblings = ["Alex", "Katie", "Andrew", "Tia", "Treyson", "Xavier", "Jake", "Michael", "Ella"]
-length = len(siblings)
+length = len(siblings) # len guesses the length of the list or set
 print(f"My older sister is {siblings[1]}")
 print(*siblings)
 print(f"The youngest is {siblings [-1]}")
@@ -12,6 +12,7 @@ siblings.extend(["Joe", "Israel", "Zee"])
 siblings.remove("Vienna")
 siblings.pop(0)
 print(*siblings)
+
 #Tuples
 subjects = ("CP1", "CP2", "Advanced CP", "CSP", "Utah Studies", "US 1", "US 2", "World Civ", "World Geography", "CCA Business")
 print(subjects[0])
