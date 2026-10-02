@@ -13,13 +13,8 @@ while True:
         shopping.remove(gone)
 
     elif action == "view":
-         shopping.sort()
-         list_num = 0
-
-         for item in shopping:
-            list_num += 1
-
-            print(f"{item}. {shopping}")
+        shopping.sort()
+       print(*shopping)
          
     elif action == "exit":
         break
