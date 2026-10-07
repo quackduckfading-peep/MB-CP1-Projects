@@ -7,4 +7,4 @@ b = 13
 for i in range(a, b, a):
     for x in range(a, b, a):
         pop = int(i * x)
-        print(pop, end = " ")
+        print(pop)
