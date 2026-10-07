@@ -1,4 +1,5 @@
 # RB, Mapping Notes
+import math
 def times(number):
     return number *2
 
@@ -17,3 +18,8 @@ siblings = ["Alex", "Katie", "Andrew", "Tia", "Treyson", "Xavier", "Jake", "Mich
 
 length = list(map(len, siblings))
 print(length)
+
+def product(number):
+    return 
+
+print(math.factorial(5))
