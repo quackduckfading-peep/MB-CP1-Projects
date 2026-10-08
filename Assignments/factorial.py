@@ -2,8 +2,12 @@
 
 import math
 
-numbers = range(1,6)
+number = 5
 
-multiplied_numbers = int(map(numbers *2))
+numbers = range(1)
+
+pop = map(factorial, )
+
+print(*numbers)
 
 print(math.factorial(5))
