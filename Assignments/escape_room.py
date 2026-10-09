@@ -1,3 +1,3 @@
 # Ren Brown, 1, Escape Room
 
-print
+print("     During the school day, you accidentally lock yourself in the bathroom stall. You are not saved. The day passes by slowly with you eating your lunch in that stall. You get bored and use your phone before putting it away, still trying to call forhelp with no one helping, as if they cannot hear you. You slowly become terrified that you'll be stuck in the stall all night.")
