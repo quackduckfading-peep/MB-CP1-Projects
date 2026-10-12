@@ -17,7 +17,10 @@ while True:
             break
         except:
             print("A growl comes from somewhere distant but quickly approaching. You spin around. Time is running out and you need to choose a clue to escape.")
-    if unstable == "elevator":
+    if unstable == "lunch box":
+        print("You grab the lunchbox, the lantern glowing red as you open the lid slowly. Inside is a small ")
+    elif unstable == "elevator":
         print("You turn toward the elevator, pressing the button to open the doors. You step inside and the door closes. A drop of something wet drips onto your shoulder. You look at the drop, examining it before looking up. The elevator was a fake. It's a mimic. You don't make a singl sound as the mimic devours you, leaving only bones as a warning for the next person who dares enter.")
+        print("Game over. Try again.")
     elif unstable == "knife":
-        print(:)
+        print(
