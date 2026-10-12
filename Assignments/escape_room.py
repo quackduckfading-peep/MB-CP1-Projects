@@ -6,13 +6,18 @@ print("     Around midnight, when you have fallen asleep, the stall door unlocks
 
 print("      Cautiously, you pick the lantern up and turn around the room slowly, noting every item that could help you escape. There are eight items. Each item is scattered around the room. The items include: a lever, an elevator, a knife, a flashlight, a master key card, a lunch box, a journal, and a sticky note.")
 
-unstable = input("Which of the items will you use? ")
-
 while True:
     while True:
         try:
+            unstable = input("Which of the items will you use? ").strip().lower()
             if unstable == "lever":
-                print("You pull the lever. An enormous shadow monster drops from the ceiling. You scream, terrified of it. The shadow makes a sound alomost like a childs giggle and swallows you up.")
+                print("You pull the lever. An enormous shadow monster drops from the ceiling. You scream, terrified of it. The shadow makes a sound alomost like a childrens giggle and swallows you up.")
                 print("Game over. Try again.")
+                continue
+            break
         except:
-            print("Hello.")
+            print("A growl comes from somewhere distant but quickly approaching. You spin around. Time is running out and you need to choose a clue to escape.")
+    if unstable == "elevator":
+        print("You turn toward the elevator, pressing the button to open the doors. You step inside and the door closes. A drop of something wet drips onto your shoulder. You look at the drop, examining it before looking up. The elevator was a fake. It's a mimic. You don't make a singl sound as the mimic devours you, leaving only bones as a warning for the next person who dares enter.")
+    elif unstable == "knife":
+        print(:)
