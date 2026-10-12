@@ -18,9 +18,13 @@ while True:
         except:
             print("A growl comes from somewhere distant but quickly approaching. You spin around. Time is running out and you need to choose a clue to escape.")
     if unstable == "lunch box":
-        print("You grab the lunchbox, the lantern glowing red as you open the lid slowly. Inside is a small ")
+        print("You grab the lunchbox, the lantern glowing red as you open the lid slowly. Inside is a small rock the size of a small potato. The rock is as black as the night sky with speckled stars across and a swirl of colors in random places, as if the galaxy were in your hand. It subtly glows a soft white. You stare at it. A wish stone. You carefully pick it up, wishing to go home.")
+        print("You jolt awake in your bed, panting. It worked. You look around your room. You're home now. Safe.")
+        print("Good job. You escaped. But shadows always return...")
+        break
     elif unstable == "elevator":
         print("You turn toward the elevator, pressing the button to open the doors. You step inside and the door closes. A drop of something wet drips onto your shoulder. You look at the drop, examining it before looking up. The elevator was a fake. It's a mimic. You don't make a singl sound as the mimic devours you, leaving only bones as a warning for the next person who dares enter.")
         print("Game over. Try again.")
     elif unstable == "knife":
-        print(
+        print("You use the red light to pick up the knife. A scream echoes from it. You drop it as the knife glitches. A silouette the size of a human emerges, glitching with every growl it makes. You turn around, ready to run, but the silouette glitches in front of you, reaching out and glitching you to an endless void with no exit, floating forever.")
+        print("Game over. Try again.")
