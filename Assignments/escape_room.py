@@ -12,7 +12,7 @@ while True:
             unstable = input("Which of the items will you use? ").strip().lower()
             if unstable == "lever":
                 print("You pull the lever. An enormous shadow monster drops from the ceiling. You scream, terrified of it. The shadow makes a sound alomost like a childs giggle and swallows you up.")
-                print("Game over. Try again.")
+                print("You died. Game over. Try again.")
                 continue
             break
         except:
@@ -22,18 +22,23 @@ while True:
         print("You jolt awake in your bed, panting. It worked. You look around your room. You're home now. Safe.")
         print("Good job. You escaped. But shadows always return...")
         break
+
     elif unstable == "elevator":
         print("You turn toward the elevator, pressing the button to open the doors. You step inside and the door closes. A drop of something wet drips onto your shoulder. You look at the drop, examining it before looking up. The elevator was a fake. It's a mimic. The mimic devours you, leaving only bones as a warning for the next person who dares enter.")
         print("You died. Game over. Try again.")
+
     elif unstable == "knife":
         print("You use the red light to pick up the knife. A scream echoes from it. You drop it as the knife glitches. A silouette the size of a human emerges, glitching with every growl it makes. You turn around, ready to run, but the silouette glitches in front of you, reaching out to harm you in a void. You back away and the silouette glitches to nothing, gone. You glance around the room, trying to place which item will help you get out quickly before something else appears.")
+
     elif unstable == "flashlight":
         print("You put the lantern, which was already emitting a glow, down and pick the flashlight up. You try to turn it on but the batteries are dead. Frustrated, you throw it against the walll, having it shatter upon impact. You sit down against the wall, losing hope for escaping. You move on to the next object that might emmit a light to help you.")
+
     elif unstable == "key card":
         print("You pick the key card up, turning it around in your hands. You use the lantern to light up the name on the key card. 'Charles Lamon'. You wonder who Charles Lamon is for about a minute before realizing you still need to escape. You try to slash the key card against the panel of the wall in the room. The panel flashes yellow and says 'Card Access Revoked'. You groan, frustrated at the failure. You turn back to the other objects.")
+        
     elif unstable == "journal":
         print("You pick the journal up, reading it. It holds no useful information to get out only a picture of a wish stone with a warning that says 'Find it and get out before it comes.' You glance around the room, looking or anything remotely capable of light or seeping light in any way.")
     elif unstable == "sticky note":
         print("Your eyes land on the sticky note. You pick it up, examining the clue on it. I has a picture of food on it. In the distance, a roar echoes. It is approaching. You try to think of the one thing in the room that might have a relation to food.")
     else:
-        print("I dont know how you got here... but you did something horribly wrong. This is the void. A void where you will never escape due to the darkmagic that pulled this game together.")
+        print("Sadly you entered an invalid word, number, or symbol and cannot continue. Please exit now or retry.")

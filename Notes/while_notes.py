@@ -46,3 +46,6 @@ while True:
                  print("That number is too high.")
     else:
         print("I dont know how you got here... but you did something horribly wrong.")
+
+
+print("I dont know how you got here... but you did something horribly wrong. This is the void. A void where you will never escape due to the dark magic that pulled this game together.")
