@@ -24,7 +24,7 @@ while True:
         break
     elif unstable == "elevator":
         print("You turn toward the elevator, pressing the button to open the doors. You step inside and the door closes. A drop of something wet drips onto your shoulder. You look at the drop, examining it before looking up. The elevator was a fake. It's a mimic. You don't make a singl sound as the mimic devours you, leaving only bones as a warning for the next person who dares enter.")
-        print("Game over. Try again.")
+        print("You died. Game over. Try again.")
     elif unstable == "knife":
         print("You use the red light to pick up the knife. A scream echoes from it. You drop it as the knife glitches. A silouette the size of a human emerges, glitching with every growl it makes. You turn around, ready to run, but the silouette glitches in front of you, reaching out and glitching you to an endless void with no exit, floating forever.")
         print("Game over. Try again.")
