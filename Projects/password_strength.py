@@ -2,7 +2,7 @@
 
 password = input("Please make a password: ")
 
-beep = str(password)
+beep = list(password)
 
 points = 0
 
@@ -12,20 +12,36 @@ if len(beep) >= 8:
 else:
     print(f"Length 8+ characters: NO")
 
-"""for character in beep:
-    if character.isupper():
+for i in beep:
+    if (i.isupper()):
         points += 1
-        print(f"Contains uppercase: YES")
+        print("Contains uppercase: YES")
         break
     else:
-        print("Contains uppercase: NO")
-        break"""
+        points += 0
 
-for letter in beep:
-    if any(letter.islower()):
+for char in beep:
+    if (char.islower()):
         points += 1
         print("Contains lowercase: YES")
         break
     else:
-        print("Contains lowercase: NO")
+        points += 0
+
+for bop in beep:
+    if (bop.isdigit):
+        points += 1
+        print("Contains number(s): YES")
         break
+    else:
+        points += 0
+
+for j in beep:
+    if (j.isalnum):
+        points += 1
+        print("Contains special character: YES")
+        break
+    else:
+        points += 0
+
+print(points)
