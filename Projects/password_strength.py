@@ -44,4 +44,13 @@ for j in beep:
     else:
         points += 0
 
-print(points)
+if points <= 2:
+    print("Password Strength: Weak")
+elif points == 3:
+    print("Password Strength: Moderate")
+elif points == 4:
+    print("Password strength: Strong")
+elif points == 5:
+    print("Password Strength: Very strong")
+
+print(f"Strength Score: {points}/5")
