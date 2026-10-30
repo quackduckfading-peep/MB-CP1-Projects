@@ -1,5 +1,6 @@
 # Ren Brown, 1, Password Strength Checker Code
 
+
 password = input("Please make a password: ") # asks the user for the password
 
 beep = list(password) # rearranges the password givin into a list
