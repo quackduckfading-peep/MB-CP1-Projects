@@ -31,7 +31,7 @@ for char in beep:
         points += 0 #adds nothing if it isn't true
 
 for bop in beep:
-    if (bop.isdigit): #checks if there are any numbers in the password
+    if (bop.isdigit()): #checks if there are any numbers in the password
         points += 1 # adds a single point if there is at least a single number
         print("Contains number(s): YES") #prints out if there is a number
         break
@@ -39,7 +39,7 @@ for bop in beep:
         points += 0 #adds nothing if it isn't true
 
 for j in beep:
-    if (j.isalnum): #checks if there are any special characters in the password
+    if (j.isalnum()): #checks if there are any special characters in the password
         points += 1 # adds a single point if there is at least one special character
         print("Contains special character: YES") #prints if there is a special character
         break
