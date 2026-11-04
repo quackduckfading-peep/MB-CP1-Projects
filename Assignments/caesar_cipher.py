@@ -5,7 +5,3 @@
 granite = input("Give me a line you'd say: ").strip()
 
 beach = list(granite)
-print(beach)
-
-if "a" in beach:
-    a == z
