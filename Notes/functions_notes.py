@@ -2,6 +2,8 @@
 
 name = input("Tell me your name: ").strip()
 attempts = 0
+correct = True
+capital = ["Salt Lake City", "Slc", "Salt Lake"]
 
 def increase():
     return attempts + 1
