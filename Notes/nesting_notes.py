@@ -26,6 +26,9 @@ for y in bit:
 else:
     print(*bit)
     dot = input("Were these your name bits?")
+    if dot == "yes":
+        print("Thank you")
+        print(*bit)
 
 while True:
     for name in names:
