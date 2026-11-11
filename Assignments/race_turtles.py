@@ -14,6 +14,9 @@ def atom(vex):
 def hover(float):
     float.penup()
 
+def land(down):
+    down.pendown()
+
 
 t_one = t.Turtle()
 t_two = t.Turtle()
@@ -84,6 +87,18 @@ goal.right(90)
 goal.pendown()
 goal.forward(1200)
 
+land(t_one)
+land(t_two)
+land(t_three)
+land(t_four)
+land(t_five)
+land(t_six)
+land(t_seven)
+land(t_eight)
+land(t_nine)
+land(t_ten)
+land(t_eleven)
+
 while True:
     go(t_one)
     go(t_two)
@@ -95,6 +110,6 @@ while True:
     go(t_eight)
     go(t_nine)
     go(t_ten)
-    go(t_eleven)  
+    go(t_eleven)
 
 t.exitonclick()
