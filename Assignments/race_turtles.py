@@ -30,6 +30,7 @@ t_nine = t.Turtle()
 t_ten = t.Turtle()
 t_eleven = t.Turtle()
 goal = t.Turtle()
+goal = 
 
 turtles = ["t_one", "t_two", "t_three", "t_four", "t_five", "t_six", "t_seven", "t_eight", "t_nine", "t_ten", "t_eleven"]
 
