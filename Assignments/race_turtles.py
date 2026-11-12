@@ -29,8 +29,8 @@ t_eight = t.Turtle()
 t_nine = t.Turtle()
 t_ten = t.Turtle()
 t_eleven = t.Turtle()
-goal = t.Turtle()
-goal = 
+line = t.Turtle()
+goal = False
 
 turtles = ["t_one", "t_two", "t_three", "t_four", "t_five", "t_six", "t_seven", "t_eight", "t_nine", "t_ten", "t_eleven"]
 
@@ -82,11 +82,11 @@ t_nine.goto(-500, -300)
 t_ten.goto(-500, -400)
 t_eleven.goto(-500, -500)
 
-goal.penup()
-goal.goto(500, 600)
-goal.right(90)
-goal.pendown()
-goal.forward(1200)
+line.penup()
+line.goto(500, 600)
+line.right(90)
+line.pendown()
+line.forward(1200)
 
 land(t_one)
 land(t_two)
