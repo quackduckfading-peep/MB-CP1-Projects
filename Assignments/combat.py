@@ -15,10 +15,15 @@ def stats_dirt(hp, defense, damage, cooldown):
     defense = 3
     damage = 100
     cooldown = 3
+    print("HP:")
     print(hp)
+    print("Defense:")
     print(defense)
+    print("Damage:")
     print(damage)
+    print("Cooldown:")
     print(cooldown)
+
 
 def unfit_human(classification):
     classification = 2
@@ -28,7 +33,16 @@ def unfit_human(classification):
         damage = 80
         cooldown = 15
 
-#add stats_human
+def stats_human(hp, defense, damage, cooldown):
+    hp = 25
+    defense = 100
+    damage = 80
+    cooldown = 15
+    print(hp)
+    print(defense)
+    print(damage)
+    print(cooldown)
+
 
 player = input("What is your name? ")
 classification = input("What type of a class are you? Click 1 for Dirt. Click 2 for an unfit human. Click 3 for a tree. Please choose now: ")
@@ -41,16 +55,15 @@ if classification == "1":
     print("Your stats are as follows:")
     stats_dirt(50, 3, 100, 3)
 elif classification == "2":
-    j
-
-
-"""elif classification == "2":
+    hp = unfit_human(2)
+    defense = unfit_human(2)
+    damage = unfit_human(2)
+    cooldown = unfit_human(2)
     print("Your stats are as follows:")
-    print("HP: 25")
-    print("Defense: 100")
-    print("Damage: 80")
-    print("Cooldown: 15 seconds")
-elif classification == "3":
+    stats_human(25, 100, 80, 15)
+
+
+"""elif classification == "3":
     print("HP: 26")
     print("Defense: 33")
     print("Damage: 45")
