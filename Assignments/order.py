@@ -73,6 +73,8 @@ menu_price = {
         "Castella": 13.63,
         "Japanese Soufflé Cheesecake": 18.44,
         "Purin": 5.99,
-        "Mochi Ice Cream": 9.87
+        "Mochi Ice Cream": 9.87,
+        "Biscuit Pudding": 5.41,
+        "Biscoff Cheesecake Cups": 
     }
 }
