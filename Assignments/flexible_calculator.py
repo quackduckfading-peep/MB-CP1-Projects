@@ -59,10 +59,10 @@ elif action == "product":
     print(f"The second number is {q}")
     first = input(f"Would you like the first number divided to be the first number? Yes or No? ").strip().lower()
     if first == "yes":
-        product = p/q
+        product = round(p/q)
         print(f"The product is {product}.")
     elif first == "no":
-        product = q/p
+        product = round(q/p)
         print(f"The product is {product}.")
 else:
     print("Wrong answer. Try again.")
